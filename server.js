@@ -21,7 +21,8 @@ const server = http.createServer((req, res) => {
       res.setHeader('Location', '/');
       res.end();
     });
-    return;
+    const port = process.env.PORT || 3000;
+const hostname = '0.0.0.0';
   }
 
   // Logic for Contact Form Submission
