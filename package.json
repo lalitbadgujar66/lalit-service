@@ -1,0 +1,10 @@
+{
+  "name": "lalit-services-ppt",
+  "version": "1.0.0",
+  "description": "Lalit PowerPoint Services Web Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
